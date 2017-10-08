@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.LoginActivity">
+<RelativeLayout
+    android:background="@drawable/hunjian"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:onClick="LoginBack"
+        android:id="@+id/back"
+        android:layout_marginTop="8dp"
+        android:padding="12sp"
+        android:src="@drawable/back_icon"
+        android:layout_width="50sp"
+        android:layout_height="50dp" />
+</RelativeLayout>
+    <EditText
+        android:hint="邮箱"
+        android:singleLine="true"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="密码"
+        android:password="true"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textSize="18dp"
+        android:textColorLink="#cac8c8"
+        android:shadowColor="#00ffe5"
+        android:background="@drawable/scale"
+        android:textColor="#ffffff"
+        android:text="登 录"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="160dp"
+        android:layout_height="40dp" />
+</LinearLayout>

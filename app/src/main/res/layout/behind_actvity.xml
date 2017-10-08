@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.videoplay.BehindActvity">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:background="#26262B"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+        <ImageView
+            android:onClick="back"
+            android:padding="5dp"
+            android:id="@+id/behind_back"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+            <TextView
+                android:textSize="18dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="#ffffff"
+                android:text="幕后文章"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:onClick="share"
+                android:padding="8dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/behind_share"
+                android:clickable="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/banner_share"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_below="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

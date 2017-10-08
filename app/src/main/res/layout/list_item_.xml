@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#26262B"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_marginTop="150dp"
+        android:id="@+id/img_title"
+        android:layout_marginLeft="8dp"
+        android:text="mama"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/img_class"
+            android:layout_marginLeft="8dp"
+            android:text="生活"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fenge"
+            android:layout_marginLeft="8dp"
+            android:text="/"
+            android:textColor="#ffffff"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/img_video_time"
+            android:layout_marginLeft="8dp"
+            android:text="生活"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

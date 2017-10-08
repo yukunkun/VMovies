@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="160dp"
+        android:layout_height="120dp">
+        <ImageView
+            android:id="@+id/mylistview_img"
+            android:scaleType="centerCrop"
+            android:src="@drawable/love"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/mylistview_time"
+            android:textColor="#ffffff"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="90'90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/mylistview_title"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:text="第一你"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/mylistview_updatetime"
+            android:layout_below="@id/mylistview_title"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:text="时间"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>
